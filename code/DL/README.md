@@ -1,4 +1,4 @@
-# Robot Dog PDR (Pedestrian Dead Reckoning)
+# Robot Dog PDR
 
 This project implements a Pedestrian Dead Reckoning (PDR) system for a robot dog using Deep Learning models (Transformer and ResNet) to predict velocity magnitude and change in heading from IMU data.
 
