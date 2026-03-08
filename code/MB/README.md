@@ -1,7 +1,5 @@
 # Dog Navigation Algorithms
 
-This repository contains standalone implementations of navigation algorithms for quadrupeds (robot dogs) or real dogs, focusing on IMU-based trajectory estimation.
-
 ## Algorithms
 
 ### 1. Weinberg Step Length Model
@@ -12,7 +10,7 @@ The Weinberg approach estimates step length using the vertical acceleration rang
 
 ### 2. Strapdown INS
 A standard 6-DOF Strapdown Inertial Navigation System that integrates accelerometer and gyroscope data to estimate 3D position and orientation.
-- **`models/strapdown_ins.py`**: Quaternion-based attitude estimation and double integration for position.
+- **`models/strapdown_ins.py`**: 
 - **`examples/run_ins.py`**: Basic usage example.
 
 ## Configuration
@@ -25,9 +23,3 @@ The algorithms use an XML-based configuration file (`config/config.xml`) to mana
    ```bash
    pip install -r requirements.txt
    ```
-
-## Requirements
-- Python 3.7+
-- NumPy
-- Pandas
-- SciPy
