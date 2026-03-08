@@ -7,7 +7,7 @@ This project implements a Pedestrian Dead Reckoning (PDR) system for a robot dog
 ```text
 RobotDogPDR/
 ├── config/             # Configuration files
-│   ├── config.xml      # Hyperparameters and data paths
+│   ├── config.xml      # Hyperparameters for robot dog
 │   └── config_real.xml # Config for real dog data comparison
 ├── models/             # Neural network architectures
 │   ├── mag_model.py    # Transformer for velocity magnitude
