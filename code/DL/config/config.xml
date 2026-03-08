@@ -29,7 +29,6 @@
         <test_trajs>
             <!--test_trajctory -->
         </test_trajs>
-        <!-- Normalized stats from full dataset analysis -->
         <normalization>
             <acc_mean>0.08, 0.05, -9.77</acc_mean>
             <acc_std>1.82, 0.84, 1.66</acc_std>
