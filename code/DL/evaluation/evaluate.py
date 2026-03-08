@@ -262,7 +262,6 @@ def main():
         
         # Plotting Trajectory (Existing)
         plt.figure(figsize=(10, 8))
-        plt.plot(gps_e, gps_n, 'k-', alpha=0.3, label='Actual GPS (Reference)')
         plt.plot(gt_pos[:, 1], gt_pos[:, 0], 'g-', label='GT (Reconstructed)')
         plt.plot(pred_pos[:, 1], pred_pos[:, 0], 'r--', label='Predicted')
         plt.scatter(0, 0, c='blue', marker='o', label='Start')
