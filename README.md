@@ -2,11 +2,17 @@
 
 
 # Abstract
+<div align="justify">
+  Modern canine applications include medical and service roles while robotic legged dogs function as autonomous platforms for high-risk industrial inspection, disaster response, and search and rescue operations. For both,   accurate positioning remains a challenge due to the cumulative drift inherent in inertial sensing. To bridge this gap, in this work we propose three algorithms using only inertial sensors for accurate positioning,     referred to as dog dead reckoning (DDR). To evaluate our approaches we  designed DogMotion, a wearable unit for canine data recording. Using DogMotion we recorded a dataset of 13 minutes. In addition, we employed a robotic legged dog dataset with a duration of 116 minutes.  Across the two distinct datasets we demonstrate that our neural-aided methods consistently outperform the model-based approach with an absolute distance error of less than 10\%. As such, we offer a lightweight and low-cost positioning solution for both biological dogs and legged robotic dogs. A codebase implementing the described framework and our associated dataset have been made publicly available.
+</div>
 
-Modern canine applications include medical and service roles while robotic legged dogs function as autonomous platforms for high-risk industrial inspection, disaster response, and search and rescue operations. For both, accurate positioning remains a challenge due to the cumulative drift inherent in inertial sensing. To bridge this gap, in this work we propose three algorithms using only inertial sensors for accurate positioning, referred to as dog dead reckoning (DDR). To evaluate our approaches we  designed DogMotion, a wearable unit for canine data recording. Using DogMotion we recorded a dataset of 13 minutes. In addition, we employed a robotic legged dog dataset with a duration of 116 minutes.  Across the two distinct datasets we demonstrate that our neural-aided methods consistently outperform the model-based approach with an absolute distance error of less than 10\%. As such, we offer a lightweight and low-cost positioning solution for both biological dogs and legged robotic dogs. A codebase implementing the described framework and our associated dataset have been made publicly available.
 
 # Dataset
+<div align="justify">
 The study evaluates the proposed Dog Dead Reckoning (DDR) framework using two distinct datasets  of synchronized motion data. The first is a custom-recorded Dog Dataset, collected using the DogMotion wearable unit—a Raspberry Pi Zero-based system equipped with an IMU and GNSS. This dataset includes data from two biological dogs across 12 trajectories, sampled at 125 Hz. The second is a larger, publicly available Legged Robot Dataset (the GrandTour dataset), which provides 116 minutes of data from an ANYmal quadruped robot. This robotic dataset includes 49 trajectories featuring high-precision RTK-GNSS ground truth, allowing for a robust comparison between biological biomechanics and engineered robotic locomotion.
+</div>
+<br>
+
 <div align="center">
   <img width="1335" height="525" alt="dog_setup" src="https://github.com/user-attachments/assets/d82d690b-4f2d-4757-aba4-e9679ebe443d" />
 </div>
