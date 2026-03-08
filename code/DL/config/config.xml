@@ -1,0 +1,40 @@
+<config>
+    <data>
+        <window_size>100</window_size> <!-- 1 second of IMU data at 100Hz -->
+        <overlap>90</overlap>
+        <gps_freq>10</gps_freq>
+        <imu_freq>100</imu_freq>
+        <data_path>dataset/robot_dog_data</data_path>
+        <output_path>processed_data</output_path>
+    </data>
+    <model>
+        <input_dim>6</input_dim> <!-- acc_x,y,z, gyro_x,y,z -->
+        <d_model>64</d_model>
+        <nhead>4</nhead>
+        <num_layers>3</num_layers>
+        <dim_feedforward>128</dim_feedforward>
+        <dropout>0.1</dropout>
+    </model>
+    <training>
+        <epochs>200</epochs>
+        <batch_size>2048</batch_size>
+        <learning_rate>0.003</learning_rate>
+        <device>cuda</device>
+        <train_trajs>
+            <!--train_trajctory -->
+        </train_trajs>
+        <val_trajs>
+            <!--val_trajctory -->
+        </val_trajs>
+        <test_trajs>
+            <!--test_trajctory -->
+        </test_trajs>
+        <!-- Normalized stats from full dataset analysis -->
+        <normalization>
+            <acc_mean>0.08, 0.05, -9.77</acc_mean>
+            <acc_std>1.82, 0.84, 1.66</acc_std>
+            <gyro_mean>0.0, 0.0, 0.0</gyro_mean>
+            <gyro_std>0.12, 0.10, 0.19</gyro_std>
+        </normalization>
+    </training>
+</config>

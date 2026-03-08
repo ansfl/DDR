@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigation_config>
+    <weinberg>
+        <k_constant>0.25</k_constant>
+        
+        <min_peak_height>10.5</min_peak_height>
+        <min_peak_distance>5</min_peak_distance>
+        
+        <use_smoothing>true</use_smoothing>
+        <window_size>10</window_size>
+        
+        <acc_min_threshold>9.0</acc_min_threshold>
+        <acc_max_threshold>15.0</acc_max_threshold>
+        
+        <!-- Heading -->
+        <use_madgwick>true</use_madgwick>
+        <madgwick_beta>0.7</madgwick_beta>
+        <mirror_y>false</mirror_y>
+    </weinberg>
+    
+    <ins>
+        <gravity>9.81</gravity>
+    </ins>
+</navigation_config>
