@@ -37,7 +37,7 @@ The study evaluates the proposed Dog Dead Reckoning (DDR) framework using two di
 ```bibtex
 @article{versano2026dog,
   title={Model-Based and Neural-Aided Approaches for Dog Dead Reckoning},
-  author={Versano, Gal and Savin, Itai and Klein, Itzik},
+  author={Versano, Gal and Savin, Itai Savin and Klein, Itzik},
   journal={},
   year={},
 }
