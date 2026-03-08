@@ -5,7 +5,7 @@ This project implements a Pedestrian Dead Reckoning (PDR) system for a robot dog
 ## Project Structure
 
 ```text
-RobotDogPDR/
+DL/
 ├── config/           
 │   ├── config.xml      # Hyperparameters for robot dog data
 │   └── config_real.xml # Hyperparameters for real dog data 
