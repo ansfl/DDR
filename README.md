@@ -9,7 +9,7 @@
 
 # Dataset
 <div align="justify">
-The study evaluates the proposed Dog Dead Reckoning (DDR) framework using two distinct datasets  of synchronized motion data. The first is a custom-recorded Dog Dataset, collected using the DogMotion wearable unit—a Raspberry Pi Zero-based system equipped with an IMU and GNSS. This dataset includes data from two biological dogs across 12 trajectories, sampled at 125 Hz. The second is a larger, publicly available Legged Robot Dataset (the GrandTour dataset), which provides 116 minutes of data from an ANYmal quadruped robot. This robotic dataset includes 49 trajectories featuring high-precision RTK-GNSS ground truth, allowing for a robust comparison between biological biomechanics and engineered robotic locomotion.
+The study evaluates the proposed Dog Dead Reckoning (DDR) framework using two distinct datasets  of synchronized motion data. The first is a custom-recorded Dog Dataset, collected using the DogMotion wearable unit, a Raspberry Pi Zero-based system equipped with an IMU and GNSS. This dataset includes data from two biological dogs across 12 trajectories, sampled at 125 Hz. The second is a larger, publicly available Legged Robot Dataset (the GrandTour dataset), which provides 116 minutes of data from an ANYmal quadruped robot. This robotic dataset includes 49 trajectories featuring high-precision RTK-GNSS ground truth, allowing for a robust comparison between biological biomechanics and engineered robotic locomotion.
 </div>
 <br>
 
@@ -44,6 +44,6 @@ The study evaluates the proposed Dog Dead Reckoning (DDR) framework using two di
 @article{versano2026dog,
   title={Model-Based and Neural-Aided Approaches for Dog Dead Reckoning},
   author={Versano, Gal and Savin, Itai and Klein, Itzik},
-  journal={},
-  year={},
+  journal={arXiv preprint arXiv:2603.07582},
+  year={2026},
 }
